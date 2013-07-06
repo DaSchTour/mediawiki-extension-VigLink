@@ -14,7 +14,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array (
 	'path'=> __FILE__ ,
 	'name'=>'VigLink',
-	'url'=>'https://github.com/DaSchTour/mediawiki-extension-VigLink',
+	'url'=>'http://www.mediawiki.org/wiki/Extension:VigLink',
 	'description'=>'Earn money with [http://www.viglink.com/?vgref=1051863 VigLink].',
 //	'descriptionmsg' => 'VigLink-desc',
 	'author'=>'[http://www.daschmedia.de DaSch]',
