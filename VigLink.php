@@ -23,8 +23,8 @@ $wgExtensionCredits['other'][] = array (
 
 $dir = dirname( __FILE__ ) . '/';
 
-//$wgExtensionMessagesFiles['Uservoice']      = $dir . 'ExtensionVersion.i18n.php';
-//$wgExtensionMessagesFiles['UservoiceAlias'] = $dir . 'ExtensionVersion.alias.php';
+//$wgExtensionMessagesFiles['VigLink']      = $dir . 'VigLink.i18n.php';
+//$wgExtensionMessagesFiles['VigLinkAlias'] = $dir . 'VigLink.alias.php';
 
 $wgAutoloadClasses[ 'VigLinkHooks' ]    = $dir . 'VigLink.hooks.php';
 $wgHooks['SkinAfterBottomScripts'][] = 'VigLinkHooks::setupVigLink';
